@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a6073d0ef32e46208af726a1736154fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a6073d0ef32e46208af726a1736154fe" ></div>
+        
+</body>
+<script>    
+    
+            var map_a6073d0ef32e46208af726a1736154fe = L.map(
+                "map_a6073d0ef32e46208af726a1736154fe",
+                {
+                    center: [5.6, 26.17],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3.4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a5aac8c85b6f49eeafb84004c0e241e4 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var marker_877834ee72cc4f119a79185ddd36aefb = L.marker(
+                [5.5600141, -0.2057437],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_506e9a0c8244452ab2246370c6a8e413 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_877834ee72cc4f119a79185ddd36aefb.setIcon(icon_506e9a0c8244452ab2246370c6a8e413);
+        
+    
+        var popup_2b2f97ef648e4954b99110532ea56598 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_40ecc3e1f1664599b055691c865ab50b = $(`<div id="html_40ecc3e1f1664599b055691c865ab50b" style="width: 100.0%; height: 100.0%;">AYK Delivery, Accra, Employee count: 24, aykdelivery,accra.com</div>`)[0];
+            popup_2b2f97ef648e4954b99110532ea56598.setContent(html_40ecc3e1f1664599b055691c865ab50b);
+        
+
+        marker_877834ee72cc4f119a79185ddd36aefb.bindPopup(popup_2b2f97ef648e4954b99110532ea56598)
+        ;
+
+        
+    
+    
+            var marker_7839dd4393c140ee93c11bd343530d63 = L.marker(
+                [30.0443879, 31.2357257],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_4b89f793c57041a081f89afc142f6e2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7839dd4393c140ee93c11bd343530d63.setIcon(icon_4b89f793c57041a081f89afc142f6e2f);
+        
+    
+        var popup_3544b1ece82c4e9a993e1c8c49f88d24 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_3e9e7b355fea4134af73b89c1cb82df0 = $(`<div id="html_3e9e7b355fea4134af73b89c1cb82df0" style="width: 100.0%; height: 100.0%;">AYK Delivery, Cairo, Employee count: 25, aykdelivery,cairo.com</div>`)[0];
+            popup_3544b1ece82c4e9a993e1c8c49f88d24.setContent(html_3e9e7b355fea4134af73b89c1cb82df0);
+        
+
+        marker_7839dd4393c140ee93c11bd343530d63.bindPopup(popup_3544b1ece82c4e9a993e1c8c49f88d24)
+        ;
+
+        
+    
+    
+            var marker_be8b7d411bf14f5abba724a2aeb1822d = L.marker(
+                [-17.831773, 31.045686],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_da81cd9b52df44098c45c75f30a3a1fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_be8b7d411bf14f5abba724a2aeb1822d.setIcon(icon_da81cd9b52df44098c45c75f30a3a1fe);
+        
+    
+        var popup_8db726428a804dc0948400d1efe07e2e = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_e316379262784863804eab9c07de23a6 = $(`<div id="html_e316379262784863804eab9c07de23a6" style="width: 100.0%; height: 100.0%;">AYK Delivery, Harare, Employee count: 9, aykdelivery,harare.com</div>`)[0];
+            popup_8db726428a804dc0948400d1efe07e2e.setContent(html_e316379262784863804eab9c07de23a6);
+        
+
+        marker_be8b7d411bf14f5abba724a2aeb1822d.bindPopup(popup_8db726428a804dc0948400d1efe07e2e)
+        ;
+
+        
+    
+    
+            var marker_7f61d1e0e978485e857ce7cf28abdb3f = L.marker(
+                [6.4550575, 3.3941795],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_94052c81809d4130be412eacb3bd1ffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7f61d1e0e978485e857ce7cf28abdb3f.setIcon(icon_94052c81809d4130be412eacb3bd1ffb);
+        
+    
+        var popup_0c2c22e0fdc84c2ca158f8e68a8c3f41 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_576aa6988a3a4d27bdc6416bbd0c80cc = $(`<div id="html_576aa6988a3a4d27bdc6416bbd0c80cc" style="width: 100.0%; height: 100.0%;">AYK Delivery, Lagos, Employee count: 19, aykdelivery,lagos.com</div>`)[0];
+            popup_0c2c22e0fdc84c2ca158f8e68a8c3f41.setContent(html_576aa6988a3a4d27bdc6416bbd0c80cc);
+        
+
+        marker_7f61d1e0e978485e857ce7cf28abdb3f.bindPopup(popup_0c2c22e0fdc84c2ca158f8e68a8c3f41)
+        ;
+
+        
+    
+    
+            var marker_ea46e90af59b454295a26a9a997b8204 = L.marker(
+                [14.693425, -17.447938],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_112991808f814220ac7f7d781954acf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ea46e90af59b454295a26a9a997b8204.setIcon(icon_112991808f814220ac7f7d781954acf7);
+        
+    
+        var popup_27fee9a44cad40e1a7f33f6e75bfdb06 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_2c1cfccff3584673965f3ad1577f688a = $(`<div id="html_2c1cfccff3584673965f3ad1577f688a" style="width: 100.0%; height: 100.0%;">AYK Delivery, Dakar, Employee count: 17, aykdelivery,dakar.com</div>`)[0];
+            popup_27fee9a44cad40e1a7f33f6e75bfdb06.setContent(html_2c1cfccff3584673965f3ad1577f688a);
+        
+
+        marker_ea46e90af59b454295a26a9a997b8204.bindPopup(popup_27fee9a44cad40e1a7f33f6e75bfdb06)
+        ;
+
+        
+    
+    
+            var marker_34cb1528f1d5425689233d5d5dbf7cb5 = L.marker(
+                [6.698081, -1.6230404],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_18ba85264bfa46b185bb21a3e77fbfd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_34cb1528f1d5425689233d5d5dbf7cb5.setIcon(icon_18ba85264bfa46b185bb21a3e77fbfd7);
+        
+    
+        var popup_0f87bff8e4184611b33391ec97184f69 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_b5c18376895649d08bfff17886626527 = $(`<div id="html_b5c18376895649d08bfff17886626527" style="width: 100.0%; height: 100.0%;">AYK Delivery, Kumasi, Employee count: 23, aykdelivery,kumasi.com</div>`)[0];
+            popup_0f87bff8e4184611b33391ec97184f69.setContent(html_b5c18376895649d08bfff17886626527);
+        
+
+        marker_34cb1528f1d5425689233d5d5dbf7cb5.bindPopup(popup_0f87bff8e4184611b33391ec97184f69)
+        ;
+
+        
+    
+    
+            var marker_10ec1fe2ca194b3a9572de3ab22ca5ce = L.marker(
+                [-33.928992, 18.417396],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_231ffdc1d9aa4411879cd25bb97b1c89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_10ec1fe2ca194b3a9572de3ab22ca5ce.setIcon(icon_231ffdc1d9aa4411879cd25bb97b1c89);
+        
+    
+        var popup_e218f28fa52f4fffb447575d5be09442 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_5abcf34082eb4f3186b83d71067468b8 = $(`<div id="html_5abcf34082eb4f3186b83d71067468b8" style="width: 100.0%; height: 100.0%;">AYK Delivery, Cape Town, Employee count: 15, aykdelivery,capetown.com</div>`)[0];
+            popup_e218f28fa52f4fffb447575d5be09442.setContent(html_5abcf34082eb4f3186b83d71067468b8);
+        
+
+        marker_10ec1fe2ca194b3a9572de3ab22ca5ce.bindPopup(popup_e218f28fa52f4fffb447575d5be09442)
+        ;
+
+        
+    
+    
+            var marker_01ac197c512b4ef2961c614f678999b1 = L.marker(
+                [-1.3031689499999999, 36.826061224105075],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_69dd287fcc794ef8a20a3751a7b2d13a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_01ac197c512b4ef2961c614f678999b1.setIcon(icon_69dd287fcc794ef8a20a3751a7b2d13a);
+        
+    
+        var popup_c5fde0c71a3142adbbf3932e1101027a = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_4cf81f79f50240bf90f4c1a18a99119a = $(`<div id="html_4cf81f79f50240bf90f4c1a18a99119a" style="width: 100.0%; height: 100.0%;">AYK Delivery, Nairobi, Employee count: 17, aykdelivery,nairobi.com</div>`)[0];
+            popup_c5fde0c71a3142adbbf3932e1101027a.setContent(html_4cf81f79f50240bf90f4c1a18a99119a);
+        
+
+        marker_01ac197c512b4ef2961c614f678999b1.bindPopup(popup_c5fde0c71a3142adbbf3932e1101027a)
+        ;
+
+        
+    
+    
+            var marker_5f8203d3fca845dba75c68b734931f54 = L.marker(
+                [-25.7459374, 28.1879444],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_c2a29ee50ca047ea81994c349477f80b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5f8203d3fca845dba75c68b734931f54.setIcon(icon_c2a29ee50ca047ea81994c349477f80b);
+        
+    
+        var popup_1d5cc83cacd14a309ce386345f1e5ca1 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_78ae0ed426a44e8bb9ecc7f1d6d91102 = $(`<div id="html_78ae0ed426a44e8bb9ecc7f1d6d91102" style="width: 100.0%; height: 100.0%;">AYK Delivery, Pretoria, Employee count: 26, aykdelivery,pretoria.com</div>`)[0];
+            popup_1d5cc83cacd14a309ce386345f1e5ca1.setContent(html_78ae0ed426a44e8bb9ecc7f1d6d91102);
+        
+
+        marker_5f8203d3fca845dba75c68b734931f54.bindPopup(popup_1d5cc83cacd14a309ce386345f1e5ca1)
+        ;
+
+        
+    
+    
+            var marker_bf89964d3530450d8a3236a6b538a192 = L.marker(
+                [8.479004, -13.26795],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_e102b037eadf4e408f1bce15b7a86b94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_bf89964d3530450d8a3236a6b538a192.setIcon(icon_e102b037eadf4e408f1bce15b7a86b94);
+        
+    
+        var popup_7961ad8f8ae547ee9a624c733cf71306 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_e09747bca0a744b981cd2737b7bb6aff = $(`<div id="html_e09747bca0a744b981cd2737b7bb6aff" style="width: 100.0%; height: 100.0%;">AYK Delivery, Freetown, Employee count: 21, aykdelivery,freetown.com</div>`)[0];
+            popup_7961ad8f8ae547ee9a624c733cf71306.setContent(html_e09747bca0a744b981cd2737b7bb6aff);
+        
+
+        marker_bf89964d3530450d8a3236a6b538a192.bindPopup(popup_7961ad8f8ae547ee9a624c733cf71306)
+        ;
+
+        
+    
+    
+            var marker_05c7bca35f1344008ec8ba7204f6afd1 = L.marker(
+                [28.0000272, 2.9999825],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_ce188d66ef8e4687ab45cea00013e013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_05c7bca35f1344008ec8ba7204f6afd1.setIcon(icon_ce188d66ef8e4687ab45cea00013e013);
+        
+    
+        var popup_f73adeba6aea4ad9954d3955ff7a33bc = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_b360c0f71dc945f89281f22b1fbe8ba3 = $(`<div id="html_b360c0f71dc945f89281f22b1fbe8ba3" style="width: 100.0%; height: 100.0%;">AYK Delivery, Algiers, Employee count: 16, aykdelivery,algiers.com</div>`)[0];
+            popup_f73adeba6aea4ad9954d3955ff7a33bc.setContent(html_b360c0f71dc945f89281f22b1fbe8ba3);
+        
+
+        marker_05c7bca35f1344008ec8ba7204f6afd1.bindPopup(popup_f73adeba6aea4ad9954d3955ff7a33bc)
+        ;
+
+        
+    
+    
+            var marker_9323a61d3ae8479b9e72c69fe17868d7 = L.marker(
+                [32.896672, 13.1777923],
+                {}
+            ).addTo(map_a6073d0ef32e46208af726a1736154fe);
+        
+    
+            var icon_e5217e9744624f1aaf62e7b7eb86f472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "motorcycle", "iconColor": "white", "iconSize": [25, 25], "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9323a61d3ae8479b9e72c69fe17868d7.setIcon(icon_e5217e9744624f1aaf62e7b7eb86f472);
+        
+    
+        var popup_0dbf99b0d36a4cf1a5dcb365b2999071 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_ae13a27a826f44e885b0173f53734827 = $(`<div id="html_ae13a27a826f44e885b0173f53734827" style="width: 100.0%; height: 100.0%;">AYK Delivery, Tripoli, Employee count: 9, aykdelivery,tripoli.com</div>`)[0];
+            popup_0dbf99b0d36a4cf1a5dcb365b2999071.setContent(html_ae13a27a826f44e885b0173f53734827);
+        
+
+        marker_9323a61d3ae8479b9e72c69fe17868d7.bindPopup(popup_0dbf99b0d36a4cf1a5dcb365b2999071)
+        ;
+
+        
+    
+</script>
