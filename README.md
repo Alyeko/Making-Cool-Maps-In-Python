@@ -1,7 +1,10 @@
 # Making-Cool-Maps-In-Python
-Author: Alberta Odamea Anim-Ayeko
+## About
+This is the official github repository, for the articles, [Making Cool Maps with Geopy and Folium](https://towardsdatascience.com/making-simple-maps-with-folium-and-geopy-4b9e8ab98c00) and ... published in [TOWARDS DATA SCIENCE](https://towardsdatascience.com/), created to share how to create an interactive map, visualizing African cities with Geopy and Folium, and how to finally deploy it to the web. 
 
-Blog posts: https://towardsdatascience.com/making-simple-maps-with-folium-and-geopy-4b9e8ab98c00, published in https://towardsdatascience.com/
+## Interactive map
+[The interactive map](https://interactive-folium-map.herokuapp.com/map) was created with the folium package in python with the help of geopy.
+Interactive maps are a way to present data at particular geographic locations in an aesthetically pleasing way. 
 
-# About
-This repository was created to share how to create an interactive map visualizing African cities with Geopy and Folium, and how to finally deploy it to the web. 
+## Deploying to the web
+The map was deployed to the web with heroku. Here, you can see the steps taken to get this done.
