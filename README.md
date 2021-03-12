@@ -1,4 +1,5 @@
 # Making-Cool-Maps-In-Python
+NB: THIS REPO IS STILL BEING WORKED ON
 ## About
 This is the official github repository, for the articles, [Making Cool Maps with Geopy and Folium](https://towardsdatascience.com/making-simple-maps-with-folium-and-geopy-4b9e8ab98c00) and ... published in [TOWARDS DATA SCIENCE](https://towardsdatascience.com/), created to share how to create an interactive map, visualizing African cities with Geopy and Folium, and how to finally deploy it to the web. 
 
